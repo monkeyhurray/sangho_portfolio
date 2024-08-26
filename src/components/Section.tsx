@@ -1,17 +1,7 @@
-import {useRef, useEffect} from 'react'
-import Projects from "@/components/Projects";
-import Stacks from "@/components/Stacks";
-import Introduce from "@/components/Introduce";
+'use client';
 
 const Section = () => {
+  return <></>;
+};
 
-  return (
-    <div className='pt-[97px]'>
-      <Introduce />
-      <Stacks />
-      <Projects />
-    </div>
-  )
-}
-
-export default Section
+export default Section;
