@@ -1,16 +1,17 @@
-import React from 'react'
+import React from 'react';
 
-const SkillsAndTools = ({innerClassName}: {innerClassName:string}) => {
-
+const SkillsAndTools = () => {
   return (
-    <div className={`inner bg-lime-400 ${innerClassName}`}>
-      <h1>asd</h1>
-      <h1>asd</h1>
-      <h1>asd</h1>
-      <h1>asd</h1>
-      <h1>asd</h1>
+    <div className="h-svh">
+      <div className="flex items-center justify-center">
+        <h1>asd</h1>
+        <h1>asd</h1>
+        <h1>asd</h1>
+        <h1>asd</h1>
+        <h1>asd</h1>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default SkillsAndTools
+export default SkillsAndTools;

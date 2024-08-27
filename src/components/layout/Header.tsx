@@ -1,18 +1,27 @@
-import React from 'react'
+import React from 'react';
 
-const Header = () => {
+const Header = ({ clickMethods }: { clickMethods: (idx: number) => void }) => {
   return (
-    <nav className="border-b-2 translate-x-1 border-lime-950 w-full text-2xl fixed flex justify-between px-24 py-8">
-      <div>
-        <h1 className='inline-block align-middle'>Portfolio</h1>
+    <nav className="flex items-center z-[1000] justify-between translate-x-1 border-lime-950 border-b-2 border-solid w-full h-8 text-2xl fixed px-6 py-8">
+      <div className="">
+        <h1 className="inline-block align-middle">Portfolio</h1>
       </div>
-      <ul className='list-none items-center flex'>
-        <li className='mr-5'>Introduce</li>
-        <li className='mr-5'>Skill&Tools</li>
-        <li>Projects</li>
+      <ul className="flex justify-center list-none text-ellipsis whitespace-nowrap">
+        <li className="mr-5">
+          <button onClick={() => clickMethods(1)}>Introduce</button>
+        </li>
+        <li className="mr-5">
+          <button onClick={() => clickMethods(2)}>Skills & Tools</button>
+        </li>
+        <li className="mr-5">
+          <button onClick={() => clickMethods(3)}>Intern</button>
+        </li>
+        <li>
+          <button onClick={() => clickMethods(4)}>Projects</button>
+        </li>
       </ul>
     </nav>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
