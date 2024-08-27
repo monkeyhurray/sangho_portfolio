@@ -3,8 +3,8 @@ import React from 'react';
 
 const Introduce = () => {
   return (
-    <div className="py-8 px-5 flex justify-center">
-      <div className="flex justify-center ">
+    <div className="absolute bottom-[40%] px-5 flex justify-center items-center w-full">
+      <div className="flex justify-center">
         <Image
           className="rounded-lg"
           src="/representative_photo.jpg"
