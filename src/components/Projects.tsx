@@ -6,7 +6,7 @@ import Portfolio from './Portfolio';
 
 const Projects = () => {
   return (
-    <div className="absolute bottom-[40%] w-full px-5">
+    <div className="absolute bottom-[40%] sm:top-[15%] w-full h-fit px-5">
       <div className="slide">
         <Porifo />
       </div>
