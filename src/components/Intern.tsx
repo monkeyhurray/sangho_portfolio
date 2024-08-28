@@ -3,23 +3,24 @@ import React from 'react';
 
 const Intern = () => {
   return (
-    <div className="absolute bottom-[40%] w-full bg-teal-300 px-20 py-8">
+    <div className="absolute bottom-[40%] sm:bottom-[30%] w-full h-fit bg-teal-300 px-20 py-8">
       <h5 className="flex text-5xl align-top justify-center mb-2 h-fit">
         DAILY PT
       </h5>
-      <div className="flex p-[20px] rounded-lg border-solid border-gray-500 border-[1px]">
-        <Image
-          className="rounded-lg"
-          src="/intern/dailyPTLogo.png"
-          alt="porifo image"
-          width={400}
-          height={300}
-        />
+      <div className="flex sm:flex-col items-center p-[20px] rounded-lg border-solid border-gray-500 border-[1px]">
+        <div className="flex-shrink-0">
+          <Image
+            className="rounded-lg"
+            src="/intern/dailyPTLogo.png"
+            alt="porifo image"
+            width={400}
+            height={300}
+          />
+        </div>
         <div className="ml-10 mt-4 leading-10 text-lg">
           <h1>
-            PT를 가장 간편하게 받는 방법, 데일리 PT에서 경험할 수 있으며, 더
-            이상 비싼 회원권에 부담을 느낄 필요 없이, 합리적인 가격으로 퍼스널
-            트레이닝을 받아볼 수 있습니다.👏🏻
+            더 이상 비싼 회원권에 부담을 느낄 필요 없이, 합리적인 가격으로
+            퍼스널 트레이닝을 받아볼 수 있습니다.👏🏻
           </h1>
           <br />
           <h1>
