@@ -3,17 +3,17 @@ import React from 'react';
 
 const Introduce = () => {
   return (
-    <div className="absolute bottom-[40%] px-5 flex justify-center items-center w-full">
+    <div className="absolute bottom-[30%] w-full px-5 flex justify-center items-center">
       <div className="flex justify-center">
         <Image
           className="rounded-lg"
           src="/representative_photo.jpg"
           alt="대표사진"
-          width={320}
-          height={350}
+          width={520}
+          height={570}
         />
       </div>
-      <div className="mt-28 ml-10">
+      <div className="mt-18 ml-10">
         <div className="leading-10">
           <h1 className="text-[30px]">Front-End 개발자 금상호입니다.</h1>
           <h1 className="flex justify-center text-[31px]">

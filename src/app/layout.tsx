@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import '@/styles/reset.css';
-
 import Footer from '@/components/layout/Footer';
 import Header from '@/components/layout/Header';
+
+import '@/styles/reset.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -23,7 +23,7 @@ export default function RootLayout({
         <div className="sticky z-50 top-0">
           <Header />
         </div>
-        {children}
+        <div className="mx-auto w-[90%]">{children}</div>
         <div className="sticky z-50 bottom-0">
           <Footer />
         </div>

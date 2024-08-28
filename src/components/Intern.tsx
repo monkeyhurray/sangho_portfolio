@@ -3,7 +3,7 @@ import React from 'react';
 
 const Intern = () => {
   return (
-    <div className="bg-teal-300 px-20 py-8">
+    <div className="absolute bottom-[40%] w-full bg-teal-300 px-20 py-8">
       <h5 className="flex text-5xl align-top justify-center mb-2 h-fit">
         DAILY PT
       </h5>
