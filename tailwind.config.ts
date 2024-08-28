@@ -18,6 +18,9 @@ const config: Config = {
         sm: { max: '900px' },
         lg: { min: '791px', max: '1500px' },
       },
+      dropShadow: {
+        arrowShadow: ['0 0 2px rgba(0, 0, 0, 1)'],
+      },
     },
   },
   plugins: [],
