@@ -21,7 +21,7 @@ import styledComponents from '../../public/skills/styled.png';
 
 const SkillsAndTools = () => {
   return (
-    <div className="absolute bottom-[22%] w-full bg-teal-300 px-20 flex justify-center sm:bottom-[35%]">
+    <div className="absolute bottom-[25%] w-full bg-teal-300 px-20 flex justify-center sm:bottom-[35%]">
       <div className="flex flex-col items-center space-y-4 w-fit p-4 mr-48 sm:mr-0">
         <h1 className="mb-3 text-[32px] sm:text-[22px]">할 수 있습니다!</h1>
         <div className="flex">
