@@ -1,11 +1,11 @@
-import Image from 'next/image';
 import React from 'react';
+import Image from 'next/image';
 
-const Porifo = () => {
+const Portfolio = () => {
   return (
     <div className=" bg-teal-300 px-20 py-8 ">
       <h5 className="flex text-5xl align-top justify-center mb-2 h-fit">
-        PORIFO
+        PORTFOLIO
       </h5>
       <div className="flex justify-center p-[20px] rounded-lg">
         <Image
@@ -35,4 +35,4 @@ const Porifo = () => {
   );
 };
 
-export default Porifo;
+export default Portfolio;
